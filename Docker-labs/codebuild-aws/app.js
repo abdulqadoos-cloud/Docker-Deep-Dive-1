@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-    res.send('Hello World from AWS CodeBuild!');
+    res.send('Hello World from AWS CodeBuild! testing');
 });
 
 app.listen(PORT, () => {
